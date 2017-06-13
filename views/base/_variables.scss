@@ -18,9 +18,9 @@ $base-z-index: 0;
 
 // Colors
 $blue: #1565c0;
-$dark-gray: #333;
+$dark-gray: #333 !default;
 $medium-gray: #999;
-$light-gray: #ddd;
+$light-gray: #ddd !default;
 
 // Font Colors
 $base-font-color: $dark-gray;
