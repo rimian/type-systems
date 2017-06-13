@@ -4,6 +4,7 @@
 
 @import 'geometric';
 @import 'rounded-sans-serif';
+@import 'sans-serif';
 
 $gutter: 20px;
 $maxwidth: 1000px;
@@ -15,7 +16,7 @@ $neat-grid: (
 
 body {
   max-width: $maxwidth;
-  margin: $gutter auto;
+  margin: $gutter auto $gutter*2 auto;
   @include grid-container;
   > article {
     @include grid-column(6);
