@@ -1,0 +1,24 @@
+@import 'bourbon/bourbon';
+@import 'base/base';
+@import 'neat/neat';
+
+@import 'geometric';
+
+$gutter: 20px;
+$maxwidth: 1000px;
+
+$neat-grid: (
+  columns: 6,
+  gutter: $gutter,
+);
+
+body {
+  max-width: $maxwidth;
+  margin: $gutter auto;
+  > div {
+    @include grid-container;
+    > article {
+      @include grid-column(6);
+    }
+  }
+}
