@@ -20,4 +20,7 @@ body {
   > article {
     @include grid-column(6);
   }
+  > hr {
+    @include grid-column(6);
+  }
 }
