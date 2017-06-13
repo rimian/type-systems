@@ -6,5 +6,5 @@ get '/app.css' do
 end
 
 get '/' do
-  erb :geometric
+  erb :app
 end
